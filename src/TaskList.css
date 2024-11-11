@@ -1,0 +1,30 @@
+.task-list {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .task-list-heading {
+    text-align: center;
+    color: #333;
+    font-size: 1.8em;
+    font-weight: bold;
+    margin-bottom: 16px;
+  }
+  
+  .task-list-items {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  
+  .no-tasks-message {
+    text-align: center;
+    color: #888;
+    font-style: italic;
+    font-size: 1.1em;
+  }
+  
